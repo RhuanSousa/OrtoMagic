@@ -1,0 +1,93 @@
+/*CSS para a tela de login*/
+
+
+
+  
+
+
+
+
+
+.BotaoEntrar {
+    width: 191.20px;
+    height: 149.59px;
+    left: 596px;
+    top: 533px;
+    position: absolute;
+    overflow: hidden; 
+}
+
+.BotaoEntrar img {
+    width: 100%; 
+    height: auto; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    transition: opacity 0.2s; 
+}
+
+
+.BotaoEntrar img.default {
+    opacity: 1; 
+}
+
+
+.BotaoEntrar img.hover {
+    opacity: 0; 
+}
+
+
+.BotaoEntrar:hover img.default {
+    opacity: 0; 
+}
+
+.BotaoEntrar:hover img.hover {
+    opacity: 1; 
+}
+
+
+/*CSS do pop up*/
+
+
+
+
+.ButtonInscrevaSe {
+    width: 316px;
+    height: 41px;
+    left: 58px;
+    top: 604px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Para esconder a imagem quando não estiver em hover */
+}
+
+.ActiveButton {
+    width: 316px;
+    height: 41px;
+    background: #94E1F2;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Para o posicionamento da imagem */
+    transition: background 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.Inscrevase {
+    color: #475159;
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    position: relative; /* Para o posicionamento da imagem */
+    z-index: 1; /* Para garantir que o texto fique acima da imagem */
+}
+
+.ActiveButton:hover {
+    background: #72C8E0; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+
